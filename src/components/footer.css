@@ -1,0 +1,12 @@
+.footer{
+    height: 40vh;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-around;
+}
