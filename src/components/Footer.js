@@ -1,34 +1,16 @@
-import React from 'react'
-import "./footer.css"
+// import { ExposureTwoTone } from "@mui/icons-material";
+import React from "react";
 
-function Footer() {
-  return (
+function Footer()
+{
+  return(
     <>
-    <div className='footer'>
-        <div className='logo'>
-        <h3>Pixel.IO</h3>
-        </div>
-        <div className='footer_content'>
-            <div>
-              <h3>Contacts</h3>
-              <p>abc123@gmail.com </p>
-            </div>
-            <div className='input'>
-                <h3>Follow</h3>
-                <p>Sign up to get the latest news on our product</p>
-                <input></input>
-                <button>Subscribe</button>
-            </div>
-            <div>
-              <h3>Youtube</h3>
-              <h3>Facebook</h3>
-              <h3>linkedln</h3>
-
-            </div>
-        </div>
-    </div>
+    <div className="d-flex  justify-content-around border-bottom bg-secondary p-2 text-light" >
+      <p>
+      © Pixel io Technologies. 2022. All rights reserved
+      </p>
+      </div>
     </>
   )
 }
-
-export default Footer
+export default Footer; 
